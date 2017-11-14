@@ -1,0 +1,21 @@
+{
+  "name": "playground-solidity",
+  "version": "1.0.0",
+  "main": "read_ldb.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "leveldown": "^2.0.1",
+    "levelup": "^2.0.1",
+    "merkle-patricia-tree": "^2.2.0",
+    "rlp": "^2.0.0"
+  }
+}
