@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "yarn truffle compile"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,11 @@
     "levelup": "^2.0.1",
     "merkle-patricia-tree": "^2.2.0",
     "rlp": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "solc": "^0.4.18",
+    "truffle": "^4.0.1"
   }
 }
