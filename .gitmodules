@@ -1,0 +1,3 @@
+[submodule "parity-bitcoin"]
+	path = parity-bitcoin
+	url = https://github.com/paritytech/parity-bitcoin.git
